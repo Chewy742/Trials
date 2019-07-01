@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: SideTorchAnimTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: 40e296f60d5ca462bb3e025459e9cb5f, type: 3}
+  - {fileID: 21300000, guid: f3dad08f15f5448bdbf8b053c18df131, type: 3}
+  - {fileID: 21300000, guid: aee56e6536fbf4e29b0701fe689ccaea, type: 3}
+  - {fileID: 21300000, guid: 699c9cc3661a847c2a9e7d33906ff042, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_TileColliderType: 2
