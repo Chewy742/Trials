@@ -15,6 +15,7 @@ public class Vampire : MonoBehaviour
 
     public bool facingRight = false;
     private int stepCount = 0;
+    private bool inFrenzy;
 
 
     public void Start()
@@ -30,8 +31,13 @@ public class Vampire : MonoBehaviour
 
     public void takeDamage(float damage)
     {
-
+        
         health -= damage;
+        if(health <= health / 2)
+        {
+            inFrenzy = true;
+            startFrenzy();
+        }
 
         if (health <= 0)
         {
@@ -42,6 +48,11 @@ public class Vampire : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+    }
+
+    private void startFrenzy()
+    {
+        speed = speed * 3;
     }
 
     private void FixedUpdate()
