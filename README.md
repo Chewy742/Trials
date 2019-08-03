@@ -8,5 +8,5 @@ Currently has 2 levels, and a 3rd unfinished level.
 
 To play the game, you can download the repository and click on the dated application to run the game. 
 
-Scripts for the game can be found in the Assets folder. 
+Scripts for the game can be found in the Assets folder. Check out the Game Screen Shots folder to see pictures!
 
